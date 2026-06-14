@@ -1,0 +1,54 @@
+{
+    "model_path": "C:\\Users\\Lenovo\\Desktop\\Resume Project\\mlops-risk-platform\\models\\best_tracked_model.joblib",
+    "explained_rows": 300,
+    "background_rows": 100,
+    "top_10_global_features": [
+        {
+            "feature": "numeric__failed_login_count_7d",
+            "mean_absolute_shap_value": 0.1435993693238327
+        },
+        {
+            "feature": "numeric__avg_transaction_amount",
+            "mean_absolute_shap_value": 0.12497403864287575
+        },
+        {
+            "feature": "numeric__account_age_days",
+            "mean_absolute_shap_value": 0.11132266818747832
+        },
+        {
+            "feature": "numeric__support_tickets_90d",
+            "mean_absolute_shap_value": 0.0767121857513203
+        },
+        {
+            "feature": "numeric__credit_score",
+            "mean_absolute_shap_value": 0.06588652347257011
+        },
+        {
+            "feature": "numeric__total_spend",
+            "mean_absolute_shap_value": 0.03890761477360308
+        },
+        {
+            "feature": "numeric__transaction_count_30d",
+            "mean_absolute_shap_value": 0.023476231229134545
+        },
+        {
+            "feature": "numeric__monthly_charges",
+            "mean_absolute_shap_value": 0.021430876500568904
+        },
+        {
+            "feature": "categorical__device_type_Desktop",
+            "mean_absolute_shap_value": 0.019853839695185903
+        },
+        {
+            "feature": "categorical__country_USA",
+            "mean_absolute_shap_value": 0.011115657703306832
+        }
+    ],
+    "generated_files": {
+        "global_bar_plot": "C:\\Users\\Lenovo\\Desktop\\Resume Project\\mlops-risk-platform\\reports\\explainability\\charts\\global_feature_importance_bar.png",
+        "beeswarm_plot": "C:\\Users\\Lenovo\\Desktop\\Resume Project\\mlops-risk-platform\\reports\\explainability\\charts\\global_feature_impact_beeswarm.png",
+        "global_importance_csv": "C:\\Users\\Lenovo\\Desktop\\Resume Project\\mlops-risk-platform\\reports\\explainability\\global_feature_importance.csv",
+        "local_waterfall_plot": "C:\\Users\\Lenovo\\Desktop\\Resume Project\\mlops-risk-platform\\reports\\explainability\\local\\local_waterfall_explanation.png",
+        "local_explanation_json": "C:\\Users\\Lenovo\\Desktop\\Resume Project\\mlops-risk-platform\\reports\\explainability\\local\\local_prediction_explanation.json"
+    }
+}

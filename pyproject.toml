@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlops-risk-platform"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2.0",
+    "numpy>=2.0.0",
+    "scikit-learn>=1.4.0",
+    "matplotlib>=3.9.0",
+    "seaborn>=0.14.2",
+    "mlflow>=2.10.0",
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.24.0",
+    "xgboost>=2.0.0",
+    "shap>=0.42.1",
+    "evidently[s3]>=0.4.5",
+    "pyyaml>=6.0.2",
+    "joblib>=1.4.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

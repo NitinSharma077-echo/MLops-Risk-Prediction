@@ -1,0 +1,53 @@
+project:
+  name: "MLOps Risk Prediction Platform"
+  version: "1.0.0"
+  random_seed: 42
+
+dataset:
+  raw_path: "data/raw/synthetic_risk_events.csv"
+  processed_dir: "data/processed"
+  target_column: "risk_event"
+  id_column: "customer_id"
+  test_size: 0.2
+
+validation:
+  required_columns:
+    - customer_id
+    - account_age_days
+    - transaction_count_30d
+    - avg_transaction_amount
+    - failed_login_count_7d
+    - support_tickets_90d
+    - monthly_charges
+    - total_spend
+    - credit_score
+    - country
+    - device_type
+    - risk_event
+
+  numeric_columns:
+    - account_age_days
+    - transaction_count_30d
+    - avg_transaction_amount
+    - failed_login_count_7d
+    - support_tickets_90d
+    - monthly_charges
+    - total_spend
+    - credit_score
+
+  categorical_columns:
+    - country
+    - device_type
+
+  allowed_binary_values:
+    - 0
+    - 1
+
+model_training:
+  scoring_metric: "f1"
+  cv_folds: 3
+  n_iter: 15
+
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db"
+  experiment_name: "risk_prediction_experiments"

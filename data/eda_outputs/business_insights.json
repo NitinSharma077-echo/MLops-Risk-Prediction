@@ -1,0 +1,19 @@
+{
+    "target_distribution": {
+        "risk_event_percentage": 15.98,
+        "interpretation": "This shows the percentage of records marked as risky. If this value is low, the dataset has class imbalance."
+    },
+    "highest_risk_country": {
+        "country": "UK",
+        "risk_rate": 0.19560878243512975
+    },
+    "highest_risk_device_type": {
+        "device_type": "Tablet",
+        "risk_rate": 0.16986301369863013
+    },
+    "strongest_numeric_difference": {
+        "feature": "total_spend",
+        "difference_between_risk_and_non_risk": 6144.127553386621
+    },
+    "business_summary": "The dataset has 15.98% risky records. The highest observed country-level risk rate is for UK. The highest observed device-level risk rate is for Tablet. The feature with the strongest average difference between risky and non-risky users is total_spend."
+}

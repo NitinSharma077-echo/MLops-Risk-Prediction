@@ -1,0 +1,70 @@
+{
+    "logistic": {
+        "accuracy": 0.84,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "roc_auc": 0.6285,
+        "classification_report": {
+            "0": {
+                "precision": 0.84,
+                "recall": 1.0,
+                "f1-score": 0.9130434782608695,
+                "support": 840.0
+            },
+            "1": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 160.0
+            },
+            "accuracy": 0.84,
+            "macro avg": {
+                "precision": 0.42,
+                "recall": 0.5,
+                "f1-score": 0.45652173913043476,
+                "support": 1000.0
+            },
+            "weighted avg": {
+                "precision": 0.7056,
+                "recall": 0.84,
+                "f1-score": 0.7669565217391304,
+                "support": 1000.0
+            }
+        }
+    },
+    "random_forest": {
+        "accuracy": 0.72,
+        "precision": 0.2087,
+        "recall": 0.2687,
+        "f1_score": 0.235,
+        "roc_auc": 0.6002,
+        "classification_report": {
+            "0": {
+                "precision": 0.8526448362720404,
+                "recall": 0.805952380952381,
+                "f1-score": 0.828641370869033,
+                "support": 840.0
+            },
+            "1": {
+                "precision": 0.2087378640776699,
+                "recall": 0.26875,
+                "f1-score": 0.23497267759562843,
+                "support": 160.0
+            },
+            "accuracy": 0.72,
+            "macro avg": {
+                "precision": 0.5306913501748551,
+                "recall": 0.5373511904761905,
+                "f1-score": 0.5318070242323307,
+                "support": 1000.0
+            },
+            "weighted avg": {
+                "precision": 0.749619720720941,
+                "recall": 0.72,
+                "f1-score": 0.7336543799452883,
+                "support": 1000.0
+            }
+        }
+    }
+}

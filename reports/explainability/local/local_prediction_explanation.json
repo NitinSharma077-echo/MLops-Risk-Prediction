@@ -1,0 +1,92 @@
+{
+    "customer_id": "CUST_002573",
+    "prediction_probability": 0.5808,
+    "prediction_label": 1,
+    "prediction_meaning": "high_risk",
+    "top_features": [
+        {
+            "feature": "numeric__avg_transaction_amount",
+            "shap_value": 0.26509476790786723
+        },
+        {
+            "feature": "numeric__credit_score",
+            "shap_value": 0.1562180993234506
+        },
+        {
+            "feature": "numeric__support_tickets_90d",
+            "shap_value": -0.08815334144979715
+        },
+        {
+            "feature": "numeric__failed_login_count_7d",
+            "shap_value": -0.08402358121122233
+        },
+        {
+            "feature": "numeric__total_spend",
+            "shap_value": 0.07035299720591866
+        },
+        {
+            "feature": "numeric__account_age_days",
+            "shap_value": 0.02634093567641685
+        },
+        {
+            "feature": "categorical__device_type_Desktop",
+            "shap_value": 0.02410386280855164
+        },
+        {
+            "feature": "numeric__monthly_charges",
+            "shap_value": 0.020244673330453225
+        },
+        {
+            "feature": "categorical__country_India",
+            "shap_value": -0.013457101243548096
+        },
+        {
+            "feature": "categorical__country_USA",
+            "shap_value": 0.009004050588700921
+        }
+    ],
+    "risk_increasing_features": [
+        {
+            "feature": "numeric__avg_transaction_amount",
+            "shap_value": 0.26509476790786723
+        },
+        {
+            "feature": "numeric__credit_score",
+            "shap_value": 0.1562180993234506
+        },
+        {
+            "feature": "numeric__total_spend",
+            "shap_value": 0.07035299720591866
+        },
+        {
+            "feature": "numeric__account_age_days",
+            "shap_value": 0.02634093567641685
+        },
+        {
+            "feature": "categorical__device_type_Desktop",
+            "shap_value": 0.02410386280855164
+        },
+        {
+            "feature": "numeric__monthly_charges",
+            "shap_value": 0.020244673330453225
+        },
+        {
+            "feature": "categorical__country_USA",
+            "shap_value": 0.009004050588700921
+        }
+    ],
+    "risk_decreasing_features": [
+        {
+            "feature": "numeric__support_tickets_90d",
+            "shap_value": -0.08815334144979715
+        },
+        {
+            "feature": "numeric__failed_login_count_7d",
+            "shap_value": -0.08402358121122233
+        },
+        {
+            "feature": "categorical__country_India",
+            "shap_value": -0.013457101243548096
+        }
+    ]
+}

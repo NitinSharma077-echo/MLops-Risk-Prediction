@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+
+# Data
+data/raw/*.csv
+data/processed/*.csv
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# Logs
+logs/*.log
+
+# Reports
+reports/data/*.json
+reports/data/*.csv
+reports/eda/charts/*.png
+reports/eda/insights/*.csv
+reports/eda/insights/*.json
+reports/model/*.json
+reports/model/*.csv
+
+# MLflow
+mlruns/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
